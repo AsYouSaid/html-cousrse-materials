@@ -1,0 +1,144 @@
+.main-body{
+    width: 1280px;
+    margin: 0 auto;    
+}
+
+.header{
+    background-color: #ffff;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   padding-top: 8px;
+   padding-bottom: 8px;
+   height: 64px;
+   box-sizing: border-box;
+}
+
+
+.menu-box{
+    margin-left: 120px;
+    margin-right: 120px;
+    display: flex;
+    align-items: center;    
+}
+
+.menu-box li:last-child{
+    padding-right: 0;
+}
+
+.menu{
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 46px;
+    padding: 8px 24px 0 0;
+    position: relative;
+    font-size: 14px;
+    font-family: 'Andada Pro', serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+}
+
+.sub-menu{
+    display: none;
+    width: 120px;
+    position: absolute;
+    color: #ffff;    
+    font-size: 14px;
+    font-family: 'Andada Pro', serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+}
+
+.menu:hover .sub-menu{
+    display: block;
+    top: 60px;
+}
+
+.menu:hover{
+    color: blue;
+    border-bottom: 2px solid  blue;
+}
+
+.header>ul:last-child{
+    padding-right: 8px 0 0 0;
+}
+
+
+.sign-in{
+    width: 96px;
+    height: 48px;
+    border: 2px solid blue;
+    color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Andada Pro', serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;    
+}
+
+.sign-in>a{
+    color: blue;
+    text-decoration: none;
+}
+
+.title{
+    height: 200px;
+}
+
+.breadcrumps{
+    height: 56px;
+    box-sizing: border-box;
+}
+
+.bd-unit{
+    display: flex;    
+}
+
+.bd-unit>li{
+    margin: 20px;
+}
+
+.bd-unit>li>a{
+    text-decoration: none;
+    color: blue;
+    font-family: 'Andada Pro', serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif; 
+}
+
+.bd-unit>li::after{    
+    content: '';
+    display: inline-block;
+    z-index: 999;
+    height: 16px;
+    width: 8px;
+    background-image: url(/img/arrow.png);
+    margin-left: 40px;
+}
+
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 528px;
+    background-color: #fafafa;
+}
+
+.block{
+    width: 368px;
+    height: 400px;
+    background-color: #ffff;
+    margin-right: 16px;
+}
+
+.block:last-child{
+    margin-right: 0;
+}
