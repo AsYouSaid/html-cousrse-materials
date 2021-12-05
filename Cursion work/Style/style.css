@@ -1,0 +1,477 @@
+.wrapper{
+    width: 1600px;
+    margin: 0 auto;    
+}
+
+.header{    
+    position: relative;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header ul{
+    display: flex;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.header ul li{
+    margin: 10px;
+}
+
+.header ul li a{
+    text-decoration: none;
+    color: #1E266D;
+    font-size: 16px;
+    font-family: 'Andada Pro', serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+.header ul li:nth-child(3)::after{
+    content: '';
+    position: absolute;
+    bottom: 30px;
+    right: 135px;
+    width: 9px;
+    height: 7px;
+    background-image: url(../img/Vector.png);
+}
+
+.united{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    width: 260px;  
+}
+
+.united2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px; 
+}
+
+.header div span{
+    left: 50px;
+    color: #1E266D;
+    font-size: 16px;    
+    font-family: 'Andada Pro', serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+.header .contact-us{  
+    text-decoration: none;  
+    color: white;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    border: 1px solid #3751FF;
+    width: 113px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: #3751FF;
+    font-family: 'Andada Pro', serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+.hero{
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-image: url(../img/bg.png);
+    background-size: 100%;
+    height: 878px;
+}
+
+.text{
+    position: absolute;
+    top: 140px;
+}
+
+.first-text{
+    width: 550px;
+    color: #1E266D;
+    font-size: 56px;
+    text-align: center;
+    font-family: 'Andada Pro', serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+.second-text{
+    margin-top: 27px;
+    text-align: center;
+    font-size: 18px;
+    color: #455880;
+    font-family: 'Andada Pro', serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+.btn1{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    width: 148px;
+    height: 50px;
+    background-color: #3751FF;
+    border-radius: 30px;
+    position: absolute;
+    top: 180px;
+    left: 105px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.btn2{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    width: 148px;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    position: absolute;
+    top: 180px;
+    left: 300px;
+    color: #455880;
+    text-decoration: none;
+}
+
+.graph{
+    position: absolute;
+    top: 420px;
+    left: 320px;
+}
+
+.logos{
+    margin-top: 200px;
+    height: 112px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;    
+}
+
+.logos span{    
+    font-size: 16px;
+    color: rgba(69, 88, 128, 0.5);
+    font-family: 'Andada Pro', serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+.logos ul{
+    display: flex;
+    width: 1179px;
+    justify-content: space-between;
+}
+
+.about{
+    width: 1240px;
+    height: 1039px;
+    margin: 0 auto;
+    margin-top: 169px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+.about_header{
+    justify-self: center;
+    align-self: flex-start;
+    text-align: center;
+    margin-left: 300px;
+    width: 550px;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+    color: #1E266D;
+    position: absolute;
+}
+
+.about_aside{
+    width: 557px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 400px;
+    margin-top: 210px;    
+}
+.about_aside .second{
+    border-top: 1px solid rgba(69, 88, 128, 0.2);
+    border-bottom: 1px solid rgba(69, 88, 128, 0.2);
+    padding-top: 80px;
+}
+.about_aside img{
+    float: left;
+    clear: both;
+    width: 58px;
+    height: 58px;
+}
+.about_aside span{
+    width: 300px;
+    height: 59px;
+    font-size: 22px;
+    line-height: 125%;
+    font-weight: bold;
+    color: #1E266D;
+    margin-left: 47px;
+    font-family: 'Andada Pro', serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+.about_aside p{
+    width: 300px;
+    height: 134px;
+    font-size: 18px;
+    line-height: 27px;
+    color: #455880;
+    text-align: left;
+    margin-left: 105px;
+    margin-top: 20px;
+}
+
+.about_graphic{
+    position: relative;
+    width: 598px;
+    height: 1039px;
+}
+
+.about_graphic :nth-child(1){
+    position: absolute;
+    top: 820px;
+    left: 190px;
+    z-index: 2;
+}
+
+.about_graphic :nth-child(2){
+    position: absolute;
+    top: 540px;
+    left: 30px;
+    z-index: 1;
+}
+
+.about_graphic :nth-child(3){
+    position: absolute;
+    top: 0;
+    left: 200px;
+}
+
+.portfolio{
+    margin-top: 50px;
+    width: 1600px;
+    height: 1001px;
+    background: #FFF9EA;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.portfolio span{
+    margin-top: 170px;
+    width: 1178px;
+    height: 60px;
+    text-align: center;
+    color: #1E266D;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+    font-family: 'Andada Pro', serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+.portfolio p{
+    width: 385px;
+    height: auto;
+    font-size: 21px;
+    line-height: 150%;
+    text-align: center;
+    margin: 40px 0 40px;
+    color: #455880;
+    font-family: 'Andada Pro', serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+.portfolio a{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    width: 148px;
+    height: 50px;
+    background-color: #3751FF;
+    border-radius: 30px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.portfolio img{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.testimonials{
+    width: 1179px;
+    height: 583px;
+    margin: 234px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.testimonials_header{
+    width: 482.68px;
+    height: 60px;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    color: #1E266D;
+    position: absolute;
+    align-self: flex-start;
+}
+
+.testimonials .first{
+    margin-top: 56px;
+    width: 373px;
+    height: 467px;
+    border: 1px solid rgba(69, 88, 128, 0.2);
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.testimonials .second{
+    margin-top: 56px;
+    width: 373px;
+    height: 467px;
+    border: 1px solid rgba(69, 88, 128, 0.2);
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.testimonials .third{
+    margin-top: 56px;
+    width: 373px;
+    height: 467px;
+    border: 1px solid rgba(69, 88, 128, 0.2);
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.testimonials p{
+    width: 245px;
+    height: 211px;
+    font-size: 18px;
+    line-height: 180%;
+    color: #455880;
+    font-family: 'Andada Pro', serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+.testimonials div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.testimonials .first div :nth-child(1){
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 125%;
+    color: #1E266D;
+    font-weight: bold;
+    font-family: 'Andada Pro', serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+.testimonials .first div :nth-child(2){
+    font-size: 18px;
+    line-height: 180%;
+    color: #455880;
+}
+
+.testimonials .second div :nth-child(1){
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 125%;
+    color: #1E266D;
+    font-weight: bold;
+    font-family: 'Andada Pro', serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+.testimonials .second div :nth-child(2){
+    font-size: 18px;
+    line-height: 180%;
+    color: #455880;
+}
+
+.testimonials .third div :nth-child(1){
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 125%;
+    color: #1E266D;
+    font-weight: bold;
+    font-family: 'Andada Pro', serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+.testimonials .third div :nth-child(2){
+    font-size: 18px;
+    line-height: 180%;
+    color: #455880;
+}
